@@ -13,7 +13,7 @@
 // }
 
 function rollTheDie() {
-  var randomNumber1 = Math.floor(Math.random() * 6 + 1);
+  let randomNumber1 = Math.floor(Math.random() * 6 + 1);
   console.log(randomNumber1);
   if (randomNumber1 == 1) {
     document.querySelector('.img1').setAttribute('src', 'images\\dice1.png');
@@ -25,11 +25,11 @@ function rollTheDie() {
     document.querySelector('.img1').setAttribute('src', 'images\\dice4.png');
   } else if (randomNumber1 == 5) {
     document.querySelector('.img1').setAttribute('src', 'images\\dice5.png');
-  }  else if (randomNumber2 == 6) {
+  }  else if (randomNumber1 == 6) {
     document.querySelector('.img1').setAttribute('src', 'images\\dice6.png');
   }
 
-  var randomNumber2 = Math.floor(Math.random() * 6 + 1);
+  let randomNumber2 = Math.floor(Math.random() * 6 + 1);
   console.log(randomNumber2);
   if (randomNumber2 == 1) {
     document.querySelector('.img2').setAttribute('src', 'images\\dice1.png');
@@ -44,6 +44,8 @@ function rollTheDie() {
   } else if (randomNumber2 == 6) {
     document.querySelector('.img2').setAttribute('src', 'images\\dice6.png');
   }
+
+  console.log("");
 
   if (randomNumber1 > randomNumber2) {
     document.querySelector(".heading").innerHTML = "<img class=\"resultingHeadingIcon\" src=\"https://img.icons8.com/emoji/96/000000/star-struck.png\"/> Player 1 Won!!";
