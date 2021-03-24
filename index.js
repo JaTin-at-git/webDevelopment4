@@ -25,6 +25,8 @@ function rollTheDie() {
     document.querySelector('.img1').setAttribute('src', 'images\\dice4.png');
   } else if (randomNumber1 == 5) {
     document.querySelector('.img1').setAttribute('src', 'images\\dice5.png');
+  }  else if (randomNumber2 == 6) {
+    document.querySelector('.img1').setAttribute('src', 'images\\dice6.png');
   }
 
   var randomNumber2 = Math.floor(Math.random() * 6 + 1);
@@ -39,6 +41,8 @@ function rollTheDie() {
     document.querySelector('.img2').setAttribute('src', 'images\\dice4.png');
   } else if (randomNumber2 == 5) {
     document.querySelector('.img2').setAttribute('src', 'images\\dice5.png');
+  } else if (randomNumber2 == 6) {
+    document.querySelector('.img2').setAttribute('src', 'images\\dice6.png');
   }
 
   if (randomNumber1 > randomNumber2) {
