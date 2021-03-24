@@ -33,4 +33,13 @@
   .heading {
     margin-bottom: 15%;
   }
+
+.rollButton{
+  position: fixed;
+  right: 35px;
+  bottom: 60px;
+  border-radius: 100%;
+  padding: 2%;
+}
+
 }
