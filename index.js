@@ -32,5 +32,5 @@ if (randomNumber1>randomNumber2) {
 } else if (randomNumber1<randomNumber2) {
   document.querySelector(".heading").innerHTML = "Player2 Won!! <img class=\"resultingHeadingIcon\" src=\"https://img.icons8.com/emoji/96/000000/star-struck.png\"/>";
 } else {
-  document.querySelector(".heading").innerHTML = "<img class=\"resultingHeadingIcon\" src=\"https://img.icons8.com/emoji/96/000000/star-struck.png\"/> It's a DRAW! <img class=\"resultingHeadingIcon\" src=\"https://img.icons8.com/emoji/96/000000/star-struck.png\"/>";
+  document.querySelector(".heading").innerHTML = "It's a DRAW!";
 }
