@@ -1,1 +1,1 @@
-alert("Hello");
+document.querySelector("h1").textContent = 'Hello there';
