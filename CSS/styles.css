@@ -1,12 +1,12 @@
 .container {
-  width: 70%;
+  width: 80%;
   margin: auto;
   text-align: center;
 }
 
 .dice {
   text-align: center;
-  display: inline-block; 
+  display: inline-block;
 }
 
 body {
@@ -22,7 +22,7 @@ h1 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
@@ -43,5 +43,5 @@ footer {
 }
 
 .heading{
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
